@@ -1,0 +1,6 @@
+{
+  "name": "Femelia Beauty Lounge",
+  "description": "Femelia Beauty Lounge in Al Nahyan, Abu Dhabi — luxury ladies' salon offering Russian manicures, nail extensions, rose & jelly spa pedicures, lightweight lash extensions, brow shaping, and henna art.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
