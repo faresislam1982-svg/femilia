@@ -1,3 +1,14 @@
+import loungeChairsImg from '../assets/images/femelia_real_1.jpg';
+import femeliaRingFloralImg from '../assets/images/femelia_real_2.jpg';
+import rubyManiPediImg from '../assets/images/femelia_real_3.jpg';
+import rosePedicureExperienceImg from '../assets/images/femelia_real_4.jpg';
+import frenchHandsPairImg from '../assets/images/femelia_real_5.jpg';
+import frenchCloseUpImg from '../assets/images/femelia_real_6.jpg';
+import citrusJellyBathImg from '../assets/images/femelia_real_7.jpg';
+import rosePetalBathImg from '../assets/images/femelia_real_8.jpg';
+import spaBasinRitualImg from '../assets/images/femelia_real_9.jpg';
+import espressoSwirlNailsImg from '../assets/images/femelia_real_10.jpg';
+
 export type ServiceCategory =
   | 'All'
   | 'Nails & Extensions'
@@ -59,16 +70,16 @@ export function formatAed(amount: number): string {
  * 100% authentic photography from Femelia Beauty Lounge (Al Jiwa Street, Al Nahyan, Abu Dhabi)
  */
 export const SALON_IMAGES = {
-  loungeChairs: '/src/assets/images/femelia_real_1.jpg',
-  femeliaRingFloral: '/src/assets/images/femelia_real_2.jpg',
-  rubyManiPedi: '/src/assets/images/femelia_real_3.jpg',
-  rosePedicureExperience: '/src/assets/images/femelia_real_4.jpg',
-  frenchHandsPair: '/src/assets/images/femelia_real_5.jpg',
-  frenchCloseUp: '/src/assets/images/femelia_real_6.jpg',
-  citrusJellyBath: '/src/assets/images/femelia_real_7.jpg',
-  rosePetalBath: '/src/assets/images/femelia_real_8.jpg',
-  spaBasinRitual: '/src/assets/images/femelia_real_9.jpg',
-  espressoSwirlNails: '/src/assets/images/femelia_real_10.jpg',
+  loungeChairs: loungeChairsImg,
+  femeliaRingFloral: femeliaRingFloralImg,
+  rubyManiPedi: rubyManiPediImg,
+  rosePedicureExperience: rosePedicureExperienceImg,
+  frenchHandsPair: frenchHandsPairImg,
+  frenchCloseUp: frenchCloseUpImg,
+  citrusJellyBath: citrusJellyBathImg,
+  rosePetalBath: rosePetalBathImg,
+  spaBasinRitual: spaBasinRitualImg,
+  espressoSwirlNails: espressoSwirlNailsImg,
 } as const;
 
 export const SERVICE_CATEGORIES: ServiceCategory[] = [
